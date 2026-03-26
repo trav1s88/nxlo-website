@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "NXLO Classic Tee",
+      "price": 599,
+      "description": "Premium quality t-shirt with the iconic NXLO logo. Perfect for everyday wear or after practice.",
+      "image": "https://via.placeholder.com/300x300?text=NXLO+Classic+Tee",
+      "category": "tshirts",
+      "sizes": ["XS", "S", "M", "L", "XL", "2XL"],
+      "color": "Black"
+    },
+    {
+      "id": 2,
+      "name": "NXLO Performance Hoodie",
+      "price": 1299,
+      "description": "Comfortable hoodie designed for athletes. Features breathable fabric and the NXLO emblem.",
+      "image": "https://via.placeholder.com/300x300?text=NXLO+Hoodie",
+      "category": "hoodies",
+      "sizes": ["XS", "S", "M", "L", "XL", "2XL"],
+      "color": "Charcoal"
+    },
+    {
+      "id": 3,
+      "name": "NXLO Limited Edition Tee",
+      "price": 799,
+      "description": "Exclusive limited edition design. Only 100 pieces available. Show your NXLO pride!",
+      "image": "https://via.placeholder.com/300x300?text=NXLO+Limited+Edition",
+      "category": "tshirts",
+      "sizes": ["S", "M", "L", "XL"],
+      "color": "White"
+    },
+    {
+      "id": 4,
+      "name": "NXLO Oversized Tee",
+      "price": 649,
+      "description": "Trendy oversized fit perfect for a relaxed, athletic look. Available in multiple colors.",
+      "image": "https://via.placeholder.com/300x300?text=NXLO+Oversized",
+      "category": "tshirts",
+      "sizes": ["XS", "S", "M", "L", "XL", "2XL"],
+      "color": "Navy"
+    },
+    {
+      "id": 5,
+      "name": "NXLO Crew Neck Sweatshirt",
+      "price": 1099,
+      "description": "Cozy crew neck sweatshirt with embroidered NXLO logo. Perfect for cool weather training.",
+      "image": "https://via.placeholder.com/300x300?text=NXLO+Crew+Neck",
+      "category": "hoodies",
+      "sizes": ["XS", "S", "M", "L", "XL", "2XL"],
+      "color": "Gray"
+    },
+    {
+      "id": 6,
+      "name": "NXLO Athlete Cap",
+      "price": 399,
+      "description": "Adjustable cap with embroidered NXLO branding. Perfect for on and off the field.",
+      "image": "https://via.placeholder.com/300x300?text=NXLO+Cap",
+      "category": "accessories",
+      "sizes": ["One Size"],
+      "color": "Black"
+    }
+  ]
+}

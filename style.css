@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ============================================
+       NXLO CLOTHING BRAND - LANDING PAGE
+       ============================================
+       This is the main HTML file for the NXLO website.
+       It includes the hero section, about, roadmap, and shop.
+       ============================================ -->
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NXLO - A modern clothing brand by a student-athlete entrepreneur in the Philippines.">
+  <meta name="theme-color" content="#000000">
+  
+  <title>NXLO - Clothing Brand</title>
+  
+  <!-- Link to the CSS stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ============================================
+       NAVIGATION BAR
+       ============================================ -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <!-- Logo / Brand Name -->
+      <div class="navbar-brand">
+        <a href="#home">NXLO</a>
+      </div>
+      
+      <!-- Navigation Links -->
+      <ul class="navbar-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#story" class="nav-link">Story</a></li>
+        <li><a href="#shop" class="nav-link">Shop</a></li>
+      </ul>
+      
+      <!-- Shopping Cart Icon -->
+      <div class="navbar-cart">
+        <button id="cart-btn" class="cart-button">
+          🛒 Cart (<span id="cart-count">0</span>)
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================================
+       HERO SECTION
+       ============================================
+       The main banner with the NXLO message and call-to-action
+  -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">NXLO</h1>
+      <p class="hero-subtitle">Next Level Clothing for Athletes</p>
+      <p class="hero-description">
+        Designed by a student-athlete. Built for champions.
+        <br>
+        Combining passion for football with premium streetwear.
+      </p>
+      <a href="#shop" class="cta-button">Explore Our Collection</a>
+    </div>
+    <div class="hero-background"></div>
+  </section>
+
+  <!-- ============================================
+       ABOUT SECTION
+       ============================================
+       Information about the NXLO brand
+  -->
+  <section id="about" class="about">
+    <div class="about-container">
+      <h2 class="section-title">About NXLO</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            NXLO is more than just a clothing brand—it's a movement. Founded by a 14-year-old elite 
+            football player and student at PAREF Southridge, NXLO represents the next level of athletic 
+            style and entrepreneurship.
+          </p>
+          <p>
+            Every design tells a story of dedication, passion, and the balance between pursuing excellence 
+            in sports and business. We believe that style and performance go hand in hand.
+          </p>
+          <h3>Our Mission</h3>
+          <p>
+            To inspire young athletes to pursue their passions fearlessly, whether on the field or in the 
+            boardroom. NXLO is proof that age is just a number when you have vision and determination.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <h3>14</h3>
+            <p>Years Old</p>
+          </div>
+          <div class="stat">
+            <h3>Elite</h3>
+            <p>Football Player</p>
+          </div>
+          <div class="stat">
+            <h3>100%</h3>
+            <p>Passion</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       STORY / ROADMAP SECTION
+       ============================================
+       The entrepreneurial journey and vision
+  -->
+  <section id="story" class="story">
+    <div class="story-container">
+      <h2 class="section-title">The NXLO Journey</h2>
+      <p class="section-subtitle">From Idea to Reality: A Student-Athlete's Entrepreneurial Path</p>
+      
+      <div class="roadmap">
+        <div class="roadmap-item">
+          <div class="roadmap-number">01</div>
+          <div class="roadmap-content">
+            <h3>The Vision</h3>
+            <p>
+              Started with a simple idea: create clothing that represents the athlete's lifestyle—
+              dedicated, passionate, and always pushing limits.
+            </p>
+          </div>
+        </div>
+        
+        <div class="roadmap-item">
+          <div class="roadmap-number">02</div>
+          <div class="roadmap-content">
+            <h3>Design & Validation</h3>
+            <p>
+              Created initial designs and validated them with teammates and friends. 
+              The feedback was overwhelming—people wanted NXLO!
+            </p>
+          </div>
+        </div>
+        
+        <div class="roadmap-item">
+          <div class="roadmap-number">03</div>
+          <div class="roadmap-content">
+            <h3>Launch</h3>
+            <p>
+              Launched NXLO with a focus on quality, authenticity, and community. 
+              Every piece is designed with the athlete in mind.
+            </p>
+          </div>
+        </div>
+        
+        <div class="roadmap-item">
+          <div class="roadmap-number">04</div>
+          <div class="roadmap-content">
+            <h3>Growing Community</h3>
+            <p>
+              Building a community of athletes, entrepreneurs, and supporters who believe 
+              in the NXLO mission: excellence in all things.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       SHOP SECTION
+       ============================================
+       The product listing and shopping area
+  -->
+  <section id="shop" class="shop">
+    <div class="shop-container">
+      <h2 class="section-title">Our Collection</h2>
+      <p class="section-subtitle">Premium clothing designed for athletes and enthusiasts</p>
+      
+      <!-- Product Grid -->
+      <div class="products-grid" id="products-grid">
+        <!-- Products will be loaded here by JavaScript -->
+        <div class="loading">Loading products...</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       SHOPPING CART MODAL
+       ============================================
+       A popup window showing the shopping cart
+  -->
+  <div id="cart-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Your Shopping Cart</h2>
+        <button class="close-btn" id="close-cart">&times;</button>
+      </div>
+      
+      <div class="modal-body">
+        <div id="cart-items">
+          <!-- Cart items will be displayed here -->
+        </div>
+      </div>
+      
+      <div class="modal-footer">
+        <div class="cart-total">
+          <strong>Total: ₱<span id="cart-total">0</span></strong>
+        </div>
+        <button class="checkout-btn">Proceed to Checkout (GCash)</button>
+        <p class="checkout-note">
+          💡 Tip: In a real store, this would connect to GCash for payment. 
+          For now, this is a demo!
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-content">
+        <h3>NXLO</h3>
+        <p>Next Level Clothing for Athletes</p>
+        <p class="footer-contact">
+          📧 Contact: info@nxlo.ph
+          <br>
+          📍 Based in the Philippines
+        </p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="https://instagram.com" target="_blank">Instagram</a>
+          <a href="https://tiktok.com" target="_blank">TikTok</a>
+          <a href="https://facebook.com" target="_blank">Facebook</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 NXLO. All rights reserved. Built with passion by a young entrepreneur.</p>
+    </div>
+  </footer>
+
+  <!-- Link to the JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
